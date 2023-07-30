@@ -1,0 +1,29 @@
+{
+  "name": "artieam/temperature-sensor-app",
+  "description": "TTTT",
+  "keywords": [
+    "temperature",
+    "sensor"
+  ],
+  "homepage": "https://github.com/artieam/temperature-sensor-app",
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Artem Sorokin",
+      "email": "arteam91@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "~8.1",
+    "ext-mbstring": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  }
+}
